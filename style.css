@@ -1,0 +1,155 @@
+#tochangefont>a{
+    font-size: xx-large;
+    font-weight: 500;
+    font-style: oblique;
+    margin-left: 0px;
+}
+li{
+    font-size: large;
+    font-weight: 500;
+    font-style: oblique;
+    margin:10px;
+}
+
+.mycontainermod2>img{
+    border-radius: 50%;
+    height: 200px;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color:  whitesmoke;
+    padding: 2%;
+    
+}
+.nav-link{
+    color:white !important;
+}
+
+.flex-container{
+    margin-right:4%;
+    margin-left:4%;
+    margin-top: 180px;
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-around;
+}
+.fa{
+    font-size:25px;
+    width:50px;
+}
+.fab{
+    padding:20px 20px 20px 0px;
+    font-size: 30px;
+    width:50px;
+    text-align: center;
+    text-decoration: none;
+    margin:1px 1px;
+}
+#change>.fab{
+    color: black;
+}
+.far{
+    font-size:25px;
+    width:50px;
+}
+.flex-container-bg{
+    margin-right:10%;
+    margin-left:10%;
+    margin-top: 80px;
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.mycontainermod3>img{
+    border-radius: 20%;
+    height: 200px;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.mycontainermod4{
+    text-align: justify;
+    margin-left: 0%;
+}
+
+.mycontainermod4>h3{
+    text-align: center;
+}
+.mycontainermod5{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.button1{
+    border-radius:20%;
+    background-color: black;
+    color: white;
+    padding: 1% ;
+    font-weight: 500;
+}
+.mycontainermod4>p{
+    margin-bottom: 5%;
+}
+
+.mycontainermod5>h4{
+    text-decoration-line: underline;
+    text-decoration-color: black;
+    padding:20px;
+}
+.flex-container-bg2{
+    margin-right:10%;
+    margin-left:20%;
+    margin-top: 50px;
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.centrio{
+    margin-top: 80px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color:black;
+}
+.progress{
+    width:300px ;
+}
+.mycontainermod8{
+    margin-top: 5%;
+    text-align: center;
+    width:60%;
+    margin-left: 20%;
+    
+}
+.mycontainermod8>.card{
+    margin:7%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.mycontainermod9{
+    text-align: center;
+}
+.mycontainermod10{
+    margin-top: 80px;
+    padding:5%;
+    text-align: center;
+    background-color: #343a40!important;
+    color: white;
+    font-weight: 500;
+    font-style: oblique;
+}
+.fas{
+    color:red !important;
+    width:2%;
+}
+#chan>.fab{
+    color:white;
+}
+.card-deck{
+    margin-top: 5%;
+}
+.cont .fas{
+    margin-right: 2%;
+}
