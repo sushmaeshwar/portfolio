@@ -1,3 +1,8 @@
+@media only screen and (max-width:720px){
+    *{
+        justify-content: space-evenly;
+    }
+}
 #tochangefont>a{
     font-size: xx-large;
     font-weight: 500;
@@ -120,8 +125,8 @@ li{
 .mycontainermod8{
     margin-top: 5%;
     text-align: center;
-    width:80%;
-    margin-left: 10%;
+    width:100%;
+    margin-left: 0%;
     
 }
 .mycontainermod8>.card{
