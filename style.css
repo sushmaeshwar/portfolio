@@ -1,16 +1,13 @@
-@media only screen and (max-width:720px){
-    *{
-        justify-content: space-evenly;
-    }
-}
 #tochangefont>a{
     font-size: xx-large;
     font-weight: 500;
     font-style: oblique;
     margin-left: 0px;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 li{
-    font-size: large;
+    font-size: x-large;
     font-weight: 500;
     font-style: oblique;
     margin:10px;
@@ -25,19 +22,35 @@ li{
     padding: 2%;
     
 }
+.card-header{
+    font-size: large;
+}
+.card-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+.mycontainermod4>p{
+    font-family: 'Times New Roman', Times, serif;
+}
 .nav-link{
     color:white !important;
 }
 
 .flex-container{
-    margin-right:4%;
-    margin-left:4%;
-    margin-top: 180px;
+    margin-right:0%;
+    margin-left:0%;
+    margin-top: 140px;
     display:flex;
     flex-wrap: nowrap;
     flex-direction: row;
     justify-items: center;
     justify-content: space-around;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.mycontainermod7>button{
+    font-weight: 500;
+    font-size: x-large;
 }
 .fa{
     font-size:25px;
@@ -59,13 +72,14 @@ li{
     width:50px;
 }
 .flex-container-bg{
-    margin-right:10%;
-    margin-left:10%;
-    margin-top: 80px;
+    margin-right:0%;
+    margin-left:0%;
+    margin-top: 50px;
     display:flex;
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-around;
+    font-size: x-large;
 }
 .mycontainermod3>img{
     border-radius: 20%;
@@ -77,14 +91,16 @@ li{
 .mycontainermod4{
     text-align: justify;
     margin-left: 0%;
+    
 }
 
 .mycontainermod4>h3{
     text-align: center;
 }
 .mycontainermod5{
-    margin-top: 5%;
+    margin-top: 50px;
     text-align: center;
+    font-size: x-large;
 }
 
 .button1{
@@ -105,32 +121,37 @@ li{
 }
 .flex-container-bg2{
     margin-right:10%;
-    margin-left:20%;
-    margin-top: 50px;
+    margin-left:10%;
+    margin-top: 20px;
+    font-size: x-large;
     display:flex;
     flex-wrap: nowrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
 }
+.mycontainermod7{
+    margin-bottom: 4%;
+}
 .centrio{
-    margin-top: 80px;
+    margin-top: 50px;
     margin-bottom: 30px;
     text-align: center;
     text-decoration-line: underline;
     text-decoration-color:black;
+    font-size: x-large;
 }
 .progress{
-    width:300px ;
+    width:100% ;
 }
 .mycontainermod8{
-    margin-top: 5%;
+    margin-top: 10px;
     text-align: center;
-    width:100%;
-    margin-left: 0%;
+    width:100%; 
+    margin-left: 0%; 
     
 }
 .mycontainermod8>.card{
-    margin:7%;
+    
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .mycontainermod9{
@@ -147,7 +168,7 @@ li{
 }
 .fas{
     color:red !important;
-    width:2%;
+    width:4%;
 }
 #chan>.fab{
     color:white;
@@ -158,3 +179,18 @@ li{
 .cont .fas{
     margin-right: 2%;
 }
+.cont{
+    font-size: x-large;
+}
+.new{
+    background-color: grey;
+}
+.card-footer{
+    background-color:grey!important;
+    font-size: large;
+    
+}
+.ch{
+    color:white;
+}
+
