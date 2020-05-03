@@ -3,8 +3,7 @@
     font-weight: 500;
     font-style: oblique;
     margin-left: 0px;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    
 }
 li{
     
@@ -13,6 +12,10 @@ li{
     margin:10px;
 }
 @media only screen and (min-width:1000px){
+    #tochangefont>a{
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
     li{
         font-size: x-large;
     }
@@ -301,6 +304,10 @@ li{
     .mycontainersub>.centrio{
         margin-top:20px;
         margin-bottom: 30px;
+    }
+    #tochangefont>a{
+        padding-top: 2%;
+        padding-bottom: 2%;
     }
     
 }
