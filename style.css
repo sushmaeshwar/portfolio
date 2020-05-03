@@ -1,9 +1,5 @@
 @media screen and (max-width:720px){
-    
-    .flex-container-bg>p{
-        width:100%;
-    }
-    .flex-container-bg>h3{
+    *>.flex-container-bg::after{
         width: 100%;
     }
 }
@@ -80,8 +76,7 @@ li{
 .flex-container-bg{
     margin-top: 50px;
     text-align: justify;
-    margin-left: 10%;
-    margin-right: 10%;
+    
     /*display:flex;
     flex-wrap: nowrap;
     flex-direction: column;
