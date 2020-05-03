@@ -1,4 +1,3 @@
-
 #tochangefont>a{
     font-size: xx-large;
     font-weight: 500;
@@ -8,12 +7,71 @@
     padding-bottom: 2%;
 }
 li{
-    font-size: x-large;
+    
     font-weight: 500;
     font-style: oblique;
     margin:10px;
 }
-
+@media only screen and (min-width:1000px){
+    li{
+        font-size: x-large;
+    }
+    .card-header{
+        font-size: x-large;
+    }
+    .card-title{
+        font-size: x-large;
+    }
+    .card-text{
+        font-size: x-large;
+    }
+    .card-footer{
+        font-size: x-large;
+    }
+    .flex-container{
+        font-size: x-large;
+    }
+    .mycontainermod7>button{
+        font-size: x-large;
+    }
+    .flex-container-bg{
+        font-size: x-large;
+    }
+    .mycontainermod5{
+        font-size: x-large;
+    }
+    .centrio{
+        font-size: x-large;
+    }
+    .flex-container-bg2{
+        font-size: x-large;
+    }
+    .cont{
+        font-size: x-large;
+    }
+    .mycontainersub{
+        display:flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .mycontainersub>.card{
+        width:45%;
+        height:20%;
+    }
+    .mycontainermod1{
+        margin-left:10%;
+    }
+    .mycontainermod2{
+        margin-right: 10%;
+    }
+    .mycontainermod8>.card{
+        margin-top:50px;
+    }
+    .mycontainersub>.card{
+        margin-top: 50px;
+    }
+}
 .mycontainermod2>img{
     border-radius: 50%;
     height: 200px;
@@ -23,10 +81,9 @@ li{
     padding: 2%;
     
 }
-.card-header{
-    font-size: large;
+.card-text{
+    font-family: 'Times New Roman', Times, serif;
 }
-
 .mycontainermod4>p{
     font-family: 'Times New Roman', Times, serif;
 }
@@ -43,12 +100,12 @@ li{
     flex-direction: row;
     justify-items: center;
     justify-content: space-around;
-    /*font-size: x-large;*/
+    font-size: x-large;
     font-family: 'Times New Roman', Times, serif;
 }
 .mycontainermod7>button{
     font-weight: 500;
-    /*font-size: x-large;*/
+    
 }
 .fa{
     font-size:25px;
@@ -70,14 +127,13 @@ li{
     width:50px;
 }
 .flex-container-bg{
+    margin-right:0%;
+    margin-left:0%;
     margin-top: 50px;
-    text-align: justify;
-    
-    /*display:flex;
+    display:flex;
     flex-wrap: nowrap;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
-    font-size: x-large;*/
 }
 .mycontainermod3>img{
     border-radius: 20%;
@@ -86,13 +142,18 @@ li{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-.flex-container-bg>h3{
+.mycontainermod4{
+    text-align: justify;
+    margin-left: 0%;
+    
+}
+
+.mycontainermod4>h3{
     text-align: center;
 }
 .mycontainermod5{
     margin-top: 50px;
     text-align: center;
-    /*font-size: x-large;*/
 }
 
 .button1{
@@ -115,7 +176,6 @@ li{
     margin-right:10%;
     margin-left:10%;
     margin-top: 20px;
-    /*font-size: x-large;*/
     display:flex;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -130,7 +190,6 @@ li{
     text-align: center;
     text-decoration-line: underline;
     text-decoration-color:black;
-    font-size: x-large;
 }
 .progress{
     width:100% ;
@@ -155,7 +214,6 @@ li{
     text-align: center;
     background-color: #343a40!important;
     color: white;
-    font-weight: 500;
     font-style: oblique;
 }
 .fas{
@@ -171,15 +229,13 @@ li{
 .cont .fas{
     margin-right: 2%;
 }
-.cont{
-    /*font-size: x-large;*/
-}
+
 .new{
     background-color: grey;
 }
 .card-footer{
     background-color:grey!important;
-    font-size: large;
+    
     
 }
 .ch{
@@ -187,16 +243,65 @@ li{
 }
 @media only screen and (max-width:720px){
     .flex-container{
-        margin-right:0%;
-        margin-left:0%;
-        margin-top: 140px;
+        margin-right:2%;
+        margin-left:2%;
+        margin-top: 100px;
+        display:flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column-reverse;
+        /*font-size: x-large;*/
+        justify-content: space-around;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: large;
+    }
+    .mycontainermod2>img{
+        border-radius: 10%;
+        height:100%;
+        width:100%; 
+        padding: 0%;
+    }
+    .mycontainermod2{
+        padding-bottom: 6%;
+    }
+    .flex-container-bg{
+        margin-top:20px;
+        margin-left: 2%;
+        margin-right:2%;
+    }
+    .mycontainermod5{
+        margin-top: 30px;
+    }
+    .fa{
+        font-size:25px;
+        width:50px;
+    }
+    .mycontainersub{
         display:flex;
         flex-wrap: nowrap;
         flex-direction: column;
-        align-content: center;
-        justify-items: center;
         justify-content: space-around;
-        /*font-size: x-large;*/
-        font-family: 'Times New Roman', Times, serif;
     }
+    .mycontainer{
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+    .mycontainersub>.card{
+        margin-bottom: 4%;
+    }
+    #change>.fab{
+        padding:20px 20px 20px 0px;
+        font-size: 25px;
+        width:50px;
+        text-align: center;
+        text-decoration: none;
+        margin:1px 1px;
+    }
+    .mycontainersub>.centrio{
+        margin-top:20px;
+        margin-bottom: 30px;
+    }
+    
 }
+
