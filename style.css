@@ -93,7 +93,8 @@ li{
 .mycontainermod4{
     text-align: justify;
     margin-left: 0%;
-    justify-content: stretch;
+    margin-right:0%;
+    
 }
 
 .mycontainermod4>h3{
