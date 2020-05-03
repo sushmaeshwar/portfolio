@@ -45,12 +45,12 @@ li{
     flex-direction: row;
     justify-items: center;
     justify-content: space-around;
-    font-size: x-large;
+    /*font-size: x-large;*/
     font-family: 'Times New Roman', Times, serif;
 }
 .mycontainermod7>button{
     font-weight: 500;
-    font-size: x-large;
+    /*font-size: x-large;*/
 }
 .fa{
     font-size:25px;
@@ -79,7 +79,7 @@ li{
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-around;
-    font-size: x-large;
+    /*font-size: x-large;*/
 }
 .mycontainermod3>img{
     border-radius: 20%;
@@ -100,7 +100,7 @@ li{
 .mycontainermod5{
     margin-top: 50px;
     text-align: center;
-    font-size: x-large;
+    /*font-size: x-large;*/
 }
 
 .button1{
@@ -123,7 +123,7 @@ li{
     margin-right:10%;
     margin-left:10%;
     margin-top: 20px;
-    font-size: x-large;
+    /*font-size: x-large;*/
     display:flex;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -180,7 +180,7 @@ li{
     margin-right: 2%;
 }
 .cont{
-    font-size: x-large;
+    /*font-size: x-large;*/
 }
 .new{
     background-color: grey;
