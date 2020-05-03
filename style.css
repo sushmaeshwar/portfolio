@@ -79,7 +79,7 @@ li{
     margin-top: 50px;
     display:flex;
     flex-wrap: nowrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     /*font-size: x-large;*/
 }
