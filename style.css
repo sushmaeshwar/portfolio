@@ -1,6 +1,7 @@
-@media screen and (max-width:720px){
-    .flex-container-bg{
-        margin-left: 10%;
+@media and (max-width:720px){
+    body{
+        margin-left:2%;
+        margin-right:2%;
     }
 }
 #tochangefont>a{
