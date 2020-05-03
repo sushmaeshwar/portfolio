@@ -77,11 +77,11 @@ li{
     margin-right:0%;
     margin-left:0%;
     margin-top: 50px;
-    display:flex;
+    /*display:flex;
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: space-around;
-    /*font-size: x-large;*/
+    font-size: x-large;*/
 }
 .mycontainermod3>img{
     border-radius: 20%;
