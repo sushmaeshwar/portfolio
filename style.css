@@ -74,8 +74,6 @@ li{
     width:50px;
 }
 .flex-container-bg{
-    margin-right:0%;
-    margin-left:0%;
     margin-top: 50px;
     /*display:flex;
     flex-wrap: nowrap;
@@ -90,14 +88,7 @@ li{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-.mycontainermod4{
-    text-align: justify;
-    margin-left: 5%;
-    margin-right:5%;
-    
-}
-
-.mycontainermod4>h3{
+.flex-container-bg>h3{
     text-align: center;
 }
 .mycontainermod5{
