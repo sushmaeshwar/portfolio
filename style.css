@@ -75,6 +75,7 @@ li{
 }
 .flex-container-bg{
     margin-top: 50px;
+    text-align: justify;
     /*display:flex;
     flex-wrap: nowrap;
     flex-direction: column;
