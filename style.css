@@ -3,7 +3,7 @@
         width: 80px;
     }
 }
-@media screen and (min-width:720px){
+@media screen and (max-width:720px){
     *{
         width: 80px;
     }
