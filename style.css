@@ -1,4 +1,9 @@
-@media screen and (min-width:320px)and(max-width:720px){
+@media screen and (min-width:320px){
+    *{
+        width: 80px;
+    }
+}
+@media screen and (min-width:720px){
     *{
         width: 80px;
     }
