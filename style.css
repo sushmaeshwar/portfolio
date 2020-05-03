@@ -5,7 +5,7 @@
 }
 @media screen and (max-width:720px){
     *{
-        width: 80px;
+        width: 100%;
     }
 }
 #tochangefont>a{
