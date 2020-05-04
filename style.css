@@ -248,7 +248,7 @@ li{
     .flex-container{
         margin-right:2%;
         margin-left:2%;
-        margin-top: 100px;
+        margin-top: 80px;
         display:flex;
         flex-wrap: nowrap;
         justify-content: center;
